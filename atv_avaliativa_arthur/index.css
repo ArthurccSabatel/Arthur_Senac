@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(154, 155, 115);
+
+}
+.tituloCentral{
+    background-color: rgb(198, 179, 142);
+    padding: 25px 500px 25px;
+    position: absolute;
+    text-align: center;
+    color: rgb(61, 8, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    top: 60px;
+    left: -5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    position: fixed; top: 0; width: 105%;
+    text-align:center;
+    left: -5px; 
+}
+
+  
+li {
+    float: left;
+    display: inline; 
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+  
+li a:hover {
+    background-color: #333;
+}
+  
+.active {
+    background-color: rgb(154, 155, 115);
+} 
