@@ -44,26 +44,52 @@ li a:hover {
 }
 .active {
     background-color: rgb(154, 155, 115);
-} 
-#card1{
-    position: absolute;
-    left: 200px;
-    top: 2010px;
 }
-#card2{
-    position: absolute;
-    left: 600px;
-    top: 2010px;
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #CC3300;
+    max-width: 500px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
 }
-#card3{
-    position: absolute;
-    left: 1000px;
-    top: 2010px;
-    
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-#card4{
-    position: absolute;
-    left: 1400px;
-    top: 2010px;
-    
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #ffffff;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+
+}
+
+.enviar {
+    background-color: #355244;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: rgb(61, 8, 20);
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
 }
