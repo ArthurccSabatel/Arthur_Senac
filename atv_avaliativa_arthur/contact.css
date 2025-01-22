@@ -1,14 +1,12 @@
 header ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     overflow: visible;
     background-color: #333;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-    position: fixed; top: 0; width: 105%;
-    text-align:center;
+    position: fixed;
+    width: 100%;
+  
 
 }
 header li {
@@ -21,7 +19,6 @@ header li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin: 0 auto;
 }
 header li a:hover {
     background-color: #333;
@@ -29,25 +26,15 @@ header li a:hover {
 
 body{
     background-color: rgb(154, 155, 115);
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    max-width: 1024px;
+    display: block;
 }
 
 main {
     text-align: center;
     background-color: rgb(198, 179, 142);
-    height: 400px;
-    display: flex;
     justify-items: center;
     align-items: center;
-    max-width: 1024px;
-}
-section{
-    max-width: 150px;
-    height: 250px;
-
+ 
 }
 
 form {
@@ -56,35 +43,20 @@ form {
     background-color:  rgb(255, 170, 0);
     border-radius: 5px; 
     margin: auto; 
-    display: flex; 
-    text-align: center; 
-    padding: 250px; 
-    align-items: center; 
-    margin-left: 250%; 
+    padding: 100px; 
+    justify-items: center;
+    display: block
+
 } 
 
-.tudo_do_form{
-    display:flex;
-    justify-items: center;
-    align-items: center;
-    /* background-color: chartreuse; */
-}
 label{
-    align-items: center;
     margin-top: 5%;
-    text-align: center;
-    align-items: center;
     display: flex;
 }
 
 input{
     display: flex;
     margin-top: 5%;
-    text-align: center;
 }
-FORM{
-    background-color: blueviolet;
-    justify-items: center;
-    display: block
 
-} 
+ 
