@@ -42,28 +42,47 @@ li a {
 li a:hover {
     background-color: #333;
 }
-.active {
-    background-color: rgb(154, 155, 115);
-} 
+
 #card1{
     position: absolute;
     left: 200px;
-    top: 2010px;
+    top: 1010px;
 }
 #card2{
     position: absolute;
     left: 600px;
-    top: 2010px;
+    top: 1010px;
 }
 #card3{
     position: absolute;
     left: 1000px;
-    top: 2010px;
+    top: 1010px;
     
 }
 #card4{
     position: absolute;
     left: 1400px;
-    top: 2010px;
+    top: 1010px;
     
+}
+.texto1{
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.texto2{
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.subtexto{
+    position: absolute;
+    top: 900px;
+    left: 435px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(153, 71, 24);
 }

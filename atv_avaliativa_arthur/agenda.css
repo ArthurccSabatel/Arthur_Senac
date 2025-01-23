@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgb(154, 155, 115);
+    display: block;
+}
+header ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: visible;
+    background-color: #333;
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+}
+header li {
+    float: left;
+    display: inline; 
+}
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color: #333;
+} 
+img{
+    position: absolute;
+    width: 40%;
+    left: 500px;
+    top: 250px;
+}

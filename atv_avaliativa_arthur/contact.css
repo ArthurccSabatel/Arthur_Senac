@@ -6,7 +6,6 @@ header ul {
     top: 0;
     position: fixed;
     width: 100%;
-  
 
 }
 header li {
@@ -31,21 +30,21 @@ body{
 
 main {
     text-align: center;
-    background-color: rgb(198, 179, 142);
     justify-items: center;
     align-items: center;
- 
 }
 
 form {
     font-family: Verdana,Tahoma,sans-serif;
     font-size: 15px;
-    background-color:  rgb(255, 170, 0);
+    background-color:  rgb(198, 179, 142);
     border-radius: 5px; 
     margin: auto; 
     padding: 100px; 
     justify-items: center;
-    display: block
+    display: block;
+    border-radius: 10px;
+    margin-top: 100px;
 
 } 
 
@@ -57,6 +56,9 @@ label{
 input{
     display: flex;
     margin-top: 5%;
+    text-align: center;
 }
-
- 
+#dso{
+    display: flex;
+    text-align: center;
+}
