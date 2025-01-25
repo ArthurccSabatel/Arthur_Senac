@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(154, 155, 115);
+}
+
+.tituloCentral {
+    background-color: rgb(198, 179, 142);
+    padding: 25px;
+    text-align: center;
+    color: rgb(61, 8, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    margin: 0 auto; 
+    position: relative;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    margin: 20px;
+    margin-left: 18%; 
+}
+
+.texto1, .texto2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin: 20px;
+    margin-top: 6%;
+}
+.texto1{
+    margin-left: 35%;
+
+}
+.texto2{
+    margin-left: 2%;
+}
+
+.subtexto {
+    margin: 20px auto;
+    margin-left: 15%; 
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(153, 71, 24);
+}
+
+.as {
+    position: absolute;
+    display: block;
+    margin: 20px auto; 
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 0%;
+    border: 50px;
+    border-radius: 10px;
+    border-color:rgb(153, 71, 24) ;
+}
