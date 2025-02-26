@@ -1,0 +1,15 @@
+CREATE DATABASE contato;
+USE contato;
+
+CREATE TABLE info(
+	id INTEGER NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(255) NOT NULL,
+	fone VARCHAR(255),
+	email VARCHAR(255),
+    comentario VARCHAR(255),
+    PRIMARY KEY(id)
+);
+
+SELECT * FROM info;
+
+DROP TABLE info;
